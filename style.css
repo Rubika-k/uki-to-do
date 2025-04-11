@@ -96,6 +96,6 @@ li.completed {
 
 #task-list li[data-priority="high"] {
     color: red;
-    background-color: #bc5c59;
+    background-color: #e58d8a;
     list-style-type: disc;
 }
