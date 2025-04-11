@@ -67,7 +67,7 @@ li {
 }
 
 li button {
-    background: #dc3545;
+    background: #e64757;
     color: white;
     border: none;
     border-radius: 4px;
@@ -76,23 +76,26 @@ li button {
 }
 
 li button:hover {
-    background: #a71d2a;
+    background: #b22e3c;
 }
 li.completed {
     text-decoration: line-through;
     background: #d4edda;
 }
 #task-list li[data-priority="low"] {
-    color: green;
+    color: rgb(3, 58, 3);
+    background-color: #98cc94;
     list-style-type:disc;
 }
 
 #task-list li[data-priority="medium"] {
-    color: orange;
+    color: rgb(161, 106, 4);
+    background-color: #e9b874;
     list-style-type: disc;
 }
 
 #task-list li[data-priority="high"] {
     color: red;
+    background-color: #bc5c59;
     list-style-type: disc;
 }
