@@ -84,7 +84,7 @@ li.completed {
 }
 #task-list li[data-priority="low"] {
     color: green;
-    list-style-type: circle;
+    list-style-type:disc;
 }
 
 #task-list li[data-priority="medium"] {
@@ -94,5 +94,5 @@ li.completed {
 
 #task-list li[data-priority="high"] {
     color: red;
-    list-style-type: square;
+    list-style-type: disc;
 }
